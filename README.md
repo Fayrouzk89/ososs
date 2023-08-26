@@ -1,16 +1,15 @@
 # task
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Flutter project.
+This project is a Flutter application, was built using Flutter SDK 2.17
+The application containing the following screens.
+Splash screen contains Flutter logo in the middle, which stays for 3 seconds.
+HOME screen with two navigation button.
+Animations page display shapes.
+Pokémon’s page request data from Api with pagination.
+techniques: 
+dio for Api calls.
+dartz for handel responses.
+cached_network_image for image displaying.
+internet_connection_checker for check network state.
+GetxController 
